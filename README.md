@@ -2,7 +2,7 @@
 
 A modern React TypeScript web application that provides an intelligent interface for interacting with Large Language Models through OpenRouter, enhanced with RAG (Retrieval-Augmented Generation) capabilities.
 
-![LLM Commander Screenshot](docs/images/screenshot.png)
+![LLM Commander Screenshot](docs/images/screenshor.PNG)
 
 *LLM Commander in action - showing the chat interface with RAG-enhanced responses and file management capabilities*
 
@@ -87,7 +87,7 @@ A modern React TypeScript web application that provides an intelligent interface
 ## � Screenshots
 
 ### Main Chat Interface
-![Main Interface](docs/images/screenshot.png)
+![Main Interface](docs/images/screenshor.PNG)
 
 The main chat interface showing:
 - Model selection dropdown
