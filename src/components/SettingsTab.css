@@ -1,0 +1,262 @@
+.settings-tab {
+  padding: 1.5rem;
+  max-width: 800px;
+}
+
+.settings-header {
+  margin-bottom: 2rem;
+}
+
+.settings-header h2 {
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.settings-description {
+  color: #ccc;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.settings-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.setting-section {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.setting-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.setting-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.api-key-container {
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  display: flex;
+  position: relative;
+}
+
+.api-key-input {
+  flex: 1;
+  padding: 0.75rem;
+  padding-right: 2.5rem;
+  background-color: #3a3a3a;
+  border: 1px solid #555;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.api-key-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.api-key-input.valid {
+  border-color: #28a745;
+}
+
+.api-key-input.invalid {
+  border-color: #dc3545;
+}
+
+.api-key-input::placeholder {
+  color: #666;
+}
+
+.toggle-visibility {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-visibility:hover {
+  background-color: #4a4a4a;
+  color: #ccc;
+}
+
+.validation-message {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.validation-message.error {
+  color: #dc3545;
+}
+
+.validation-message.success {
+  color: #28a745;
+}
+
+.save-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #357abd;
+}
+
+.save-button.saved {
+  background-color: #28a745;
+}
+
+.info-section, .models-info {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4a90e2;
+}
+
+.info-section h3, .models-info h3 {
+  color: #fff;
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.info-section ol {
+  color: #ccc;
+  margin: 0 0 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.info-section li, .models-info li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.external-link {
+  color: #4a90e2;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+}
+
+.security-note {
+  background-color: #1a2332;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #2a4a6b;
+}
+
+.security-note h4 {
+  color: #4a90e2;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.security-note p {
+  color: #ccc;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.models-info p {
+  color: #ccc;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.models-info ul {
+  color: #ccc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.path-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.path-input {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 0.75rem;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.path-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.path-input::placeholder {
+  color: #666;
+}
+
+.path-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.path-info p {
+  color: #ccc;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.path-note {
+  color: #888 !important;
+  font-style: italic;
+}
+
+.path-note strong {
+  color: #aaa;
+}

@@ -1,0 +1,122 @@
+.rules-tab {
+  padding: 1.5rem;
+  max-width: 800px;
+}
+
+.rules-header {
+  margin-bottom: 2rem;
+}
+
+.rules-header h2 {
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.rules-description {
+  color: #ccc;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.rules-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+.instructions-textarea {
+  width: 100%;
+  background-color: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  resize: vertical;
+  min-height: 300px;
+}
+
+.instructions-textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.instructions-textarea::placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+.rules-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.save-button, .reset-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.save-button {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #357abd;
+}
+
+.save-button.saved {
+  background-color: #28a745;
+}
+
+.reset-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #545b62;
+}
+
+.rules-info {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #4a90e2;
+}
+
+.rules-info h3 {
+  color: #fff;
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+.rules-info ul {
+  color: #ccc;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.rules-info li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.rules-info li:last-child {
+  margin-bottom: 0;
+}
